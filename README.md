@@ -6,18 +6,19 @@ Crystallize uses Figma for content modeling but there is no way to visualise exi
 The main idea is being able to gather information about all existing shapes for the given crystallize tenant and show it in some easy to read way.
 
 ### How to start
+You **must** have nodeJS installed on your machine to be able to run service. 
 To start service locally:
 1. Clone the repo.
 2. Install all dependencies with `npm run install`.
 3. Configure tenant(s): 
-  - Rename `./server/config_examle.js` to `./server/config.js`
-  - Use tenant id instead of `tenant_id_here`
-  - Set names for every tenant. Name could be custom and not affects any functionality.
-  - Set token id for service to have access to crystallize.
-  - Set token itself.
-4. Rename `./client/.env.local.example` to `./client/.env.local`
-5. Run service with `npm start`;
-6. Open `http://localhost:3000` to get access to visualisation.
+  - Rename `./server/config_examle.js` to `./server/config.js`;
+  - Use tenant id instead of `tenant_id_here`;
+  - Set names for every tenant. Name could be custom and not affects any functionality;
+  - Set token id for service to have access to crystallize;
+  - Set token itself;
+  - Remove extra tenant if not needed.
+4. Run service with `npm start`;
+5. Open `http://localhost:3000` to get access to visualisation.
 
 ### Where I can find tenant id
 Tenant id could be taken from Crystallize:
