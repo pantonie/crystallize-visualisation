@@ -9,7 +9,7 @@ The main idea is being able to gather information about all existing shapes for 
 You **must** have nodeJS installed on your machine to be able to run service. 
 To start service locally:
 1. Clone the repo.
-2. Install all dependencies with `npm run install`.
+2. Install all dependencies with `npm install`.
 3. Configure tenant(s): 
   - Rename `./server/config_examle.js` to `./server/config.js`;
   - Use tenant id instead of `tenant_id_here`;
