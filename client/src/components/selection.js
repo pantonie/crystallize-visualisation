@@ -2,7 +2,6 @@ import React from 'react';
 import Image from 'next/image';
 
 const Selection = ({name, id, config}) => {
-  console.log(config?.options);
   return (
     <div className='single-line data-box' key={id}>
       <div className="icon">
