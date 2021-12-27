@@ -1,0 +1,21 @@
+{
+  "name": "mitsibishi-service-api-custom",
+  "version": "1.0.0",
+  "description": "This is service api for crystallize created to bypass public api restrictions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anton Panteleev",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "invariant": "^2.2.4",
+    "node-fetch": "^2.6.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0"
+  }
+}

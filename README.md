@@ -15,8 +15,9 @@ To start service locally:
   - Set names for every tenant. Name could be custom and not affects any functionality.
   - Set token id for service to have access to crystallize.
   - Set token itself.
-4. Run service with `npm start`;
-5. Open `http://localhost:3000` to get access to visualisation.
+4. Rename `./client/.env.local.example` to `./client/.env.local`
+5. Run service with `npm start`;
+6. Open `http://localhost:3000` to get access to visualisation.
 
 ### Where I can find tenant id
 Tenant id could be taken from Crystallize:
@@ -24,7 +25,7 @@ Tenant id could be taken from Crystallize:
 - Open Settings -> Usage;
 - Copy tenant ID from top right corner of the page.
 
-### Where I can found (generate) token
+### Where I can find (generate) token
 Crystallize shows token on generation only. If you don't know the actual token then you need to generate a new one. To do that:
 - Open Crystallize PIM;
 - Open Settings -> Access Tokens -> Generate a new token;

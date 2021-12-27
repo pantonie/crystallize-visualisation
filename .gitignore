@@ -1,0 +1,6 @@
+.DS_Store
+.idea
+node_modules/
+service/config.js
+service/node_modules
+client/node_modules

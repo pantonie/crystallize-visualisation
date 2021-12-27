@@ -1,0 +1,22 @@
+{
+  "name": "crystallize-visualisation",
+  "version": "1.0.0",
+  "description": "Visualisation service for Crystallize ecommerce platform shapes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "(npm install); (cd service && npm install); (cd client && npm install)",
+    "start-server": "cd server && npm start",
+    "start-client": "cd client && npm run dev",
+    "start": "concurrently \"npm:start-server\" \"npm:start-client\""
+  },
+  "keywords": [
+    "crystallize",
+    "visualisation"
+  ],
+  "author": "Anton Panteleev",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.5.1"
+  }
+}
